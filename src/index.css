@@ -6,4 +6,5 @@
 body {
   background-color: var(--background);
   color: white;
+  border: 1px solid white;
 }

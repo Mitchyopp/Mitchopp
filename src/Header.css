@@ -1,0 +1,12 @@
+.nav {
+  text-align: center;
+  background-color: #585a5e;
+  margin: 0 0 10px;
+  padding: 20px;
+  position: sticky;
+}
+
+.nav a {
+  color: pink;
+  margin: 0px 10px 0px;
+}
