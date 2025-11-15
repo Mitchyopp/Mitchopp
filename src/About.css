@@ -1,5 +1,5 @@
-body {
-  text-align: center;
+.about {
+  margin: 30px 0px;
 }
 
 .avatar {
@@ -15,4 +15,10 @@ body {
 
 .about-description {
   color: white;
+}
+
+.name {
+  color: pink;
+  font-weight: bold;
+  text-decoration: underline;
 }
