@@ -1,33 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Card from './Card.jsx';
+import nixosImage from './assets/NixOS.png';
+import linuxImage from './assets/Linux.png';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Card 
+        title="NixOS" 
+        description="This blog is about my experience with NixOS and how it was for me personally!" 
+        image={nixosImage} 
+        link="NixOS.jsx"
+      />
+      <Card
+        title="Linux"
+        description="This blog is about my experience with Linux and how it's been for me over the past year of usage!"
+        image={linuxImage}
+        link="Linux.jsx"
+      />
     </>
   )
 }
