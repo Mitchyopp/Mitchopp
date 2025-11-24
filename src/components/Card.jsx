@@ -3,15 +3,15 @@ import './Card.css'
 function Card({ title, description, image, link }) {
   return (
     <>
-      <div class="card">
-        {image && <img src={image} alt={title} class="card-image" />}
+      <div className="card">
+        {image && <img src={image} alt={title} className="card-image" />}
 
-        <div class="card-content">
+        <div className="card-content">
           <h2>{title}</h2>
           <p>{description}</p>
 
           {link && (
-            <a href={link} class="card-link">
+            <a href={link} className="card-link">
               → Read Blog ←
             </a>
           )}

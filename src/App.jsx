@@ -1,9 +1,11 @@
-import Card from './Card.jsx';
-import Header from './Header.jsx'
-import About from './About.jsx'
+import Card from './components/Card.jsx';
+import Header from './components/Header.jsx'
+import About from './components/About.jsx'
 import profilePicture from './assets/avatar.png'
 import nixosImage from './assets/NixOS.png';
 import linuxImage from './assets/Linux.png';
+
+import Example1 from './example/example1.jsx';
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
           // image={workflowImage}
           link="/blog/Workflow"
         />
+        <Example1 name="Mitch" description="I'm 19 years old and i like japan!" src={profilePicture} alt="PFP" />
       </div>
     </>
   )
