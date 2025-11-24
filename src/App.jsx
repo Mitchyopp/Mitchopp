@@ -6,7 +6,7 @@ import Contact from './pages/Contact.jsx'
 import Blogs from './pages/Blogs.jsx'
 
 // Blogs
-import NixOS from './blogs/NixOS.jsx';
+import BlogPosts from './pages/BlogPosts.jsx';
 
 import profilePicture from './assets/avatar.png'
 
@@ -20,7 +20,8 @@ function App() {
         <Route path="/" element={<Home pfp={profilePicture}/>}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/blogs" element={<Blogs />}/>
-        <Route path="/blogs/:slug" element={<NixOS />} />
+        // Blogs
+        <Route path="/blogs/:slug" element={<BlogPosts />} />
       </Routes>
     </>
   )

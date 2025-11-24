@@ -25,6 +25,11 @@ function Blogs() {
           // image={workflowImage}
           link="/blogs/Workflow"
         />
+        <Card
+          title="Colourschemes"
+          description="My experience of trying to make a colourscheme that works well for me!"
+          link="/blogs/Colourschemes"
+        />
       </div>
     </>
   )
