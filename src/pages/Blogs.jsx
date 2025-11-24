@@ -11,19 +11,19 @@ function Blogs() {
           title="NixOS"
           description="This blog is about my experience with NixOS and how it was for me personally!"
           image={nixosImage}
-          link="/blog/NixOS"
+          link="/blogs/NixOS"
         />
         <Card
           title="Linux"
           description="This blog is about my experience with Linux and how it's been for me over the past year of usage!"
           image={linuxImage}
-          link="/blog/Linux"
+          link="/blogs/Linux"
         />
         <Card
           title="Workflow"
           description="What's my workflow like? There's some interesting things iv'e done!"
           // image={workflowImage}
-          link="/blog/Workflow"
+          link="/blogs/Workflow"
         />
       </div>
     </>
