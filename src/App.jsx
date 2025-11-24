@@ -1,6 +1,8 @@
+import { Routes, Route, Link } from 'react-router-dom'
+
 import Card from './components/Card.jsx';
 import Header from './components/Header.jsx'
-import About from './components/About.jsx'
+import About from './pages/About.jsx'
 import profilePicture from './assets/avatar.png'
 import nixosImage from './assets/NixOS.png';
 import linuxImage from './assets/Linux.png';
