@@ -6,7 +6,7 @@ import linuxImage from '../assets/Linux.png';
 function Blogs() {
   return (
     <>
-      <div style={{ display: 'flex', gap: '20px', padding: '20px' }}>
+      <div className="blog-grid">
         <Card
           title="NixOS"
           description="This blog is about my experience with NixOS and how it was for me personally!"
