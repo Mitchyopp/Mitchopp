@@ -1,0 +1,24 @@
+.about {
+  margin: 30px 0px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  border: 2px solid purple;
+}
+
+.about-title {
+  font-weight: bold;
+  color: darkgray;
+}
+
+.about-description {
+  color: white;
+}
+
+.name {
+  color: pink;
+  font-weight: bold;
+  text-decoration: underline;
+}

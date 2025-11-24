@@ -10,9 +10,6 @@ function Header() {
       <NavLink to="/contact">
         Contact
       </NavLink>
-      <NavLink to="/about">
-        About
-      </NavLink>
       <NavLink to="/blogs">
         Blogs
       </NavLink>
