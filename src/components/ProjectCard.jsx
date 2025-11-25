@@ -1,22 +1,20 @@
 import './ProjectCard.css'
 
-function Projects({ title, description, image }) {
-  if (image) {
+function ProjectCard({ title, description, image, repo }) {
     return (
       <>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <img src={image} alt={`${title} screenshot`} width="800" />
+        <div className="project-card">
+          <h1>{title}</h1>
+          <p>{description}</p>
+          {repo && (
+            <a href={repo} className="repo">{title}</a>
+          )}
+          {image && (
+            <img src={image} className="image" alt={`${title} screenshot`} width="800" />
+          )}
+        </div>
       </>
     );
-  } else {
-    return (
-      <>
-        <h1>{title}</h1>
-        <p>{description}</p>
-      </>
-    );
-  }
 }
 
-export default Projects;
+export default ProjectCard;

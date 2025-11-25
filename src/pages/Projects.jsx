@@ -1,5 +1,6 @@
 import ProjectCard from '../components/ProjectCard.jsx';
 import { projects } from '../data/projects.js';
+import './Projects.css';
 
 function Projects() {
   return (
@@ -11,6 +12,7 @@ function Projects() {
             key={project.id}
             title={project.title}
             description={project.description}
+            repo={project.repo}
             image={project.image}
           />
         ))}
